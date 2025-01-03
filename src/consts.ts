@@ -2,9 +2,9 @@
 // 你可以通过使用 `import` 关键字从站点的任何位置导入这些数据
 
 // 基础页面元数据，src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroVerse";
-export const SITE_TITLE = "AstroVerse";
-export const SITE_DESCRIPTION = "用于视觉叙事的 Astro 主题";
+export const BRAND_NAME = "建筑指南";
+export const SITE_TITLE = "建筑指南";
+export const SITE_DESCRIPTION = "这是一份基于我个人喜好的建筑指南，记录我了解建筑过程的知识和经验。";
 
 // 标签页面元数据，src/pages/tags/index.astro
 export const Tags_TITLE = "AstroVerse - 所有标签";
