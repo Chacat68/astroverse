@@ -1,47 +1,47 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+// 将任何全局数据放在此文件中
+// 你可以通过使用 `import` 关键字从站点的任何位置导入这些数据
 
-// Base Page Metadata, src/layouts/BaseLayout.astro
+// 基础页面元数据，src/layouts/BaseLayout.astro
 export const BRAND_NAME = "AstroVerse";
 export const SITE_TITLE = "AstroVerse";
-export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
+export const SITE_DESCRIPTION = "用于视觉叙事的 Astro 主题";
 
-// Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroVerse - All Tags";
+// 标签页面元数据，src/pages/tags/index.astro
+export const Tags_TITLE = "AstroVerse - 所有标签";
 export const Tags_DESCRIPTION =
-  "AstroVerse - All tags and the count of articles related to each tag";
+  "AstroVerse - 所有标签及与每个标签相关的文章数量";
 
-// Tags Page Metadata, src/pages/tags/[tag]/[page].astro
+// 标签页面元数据，src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in AstroVerse`,
-    description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
+    title: `AstroVerse 中关于 '${tag}' 标签的所有文章`,
+    description: `探索关于 ${tag} 的文章，获取不同的视角和深入的分析。`,
   };
 }
 
-// Category Page Metadata, src/pages/category/[category]/[page].astro
+// 分类页面元数据，src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in AstroVerse`,
-    description: `Browse all articles under the ${category} category in AstroVerse`,
+    title: `AstroVerse 中 '${category}' 分类下的所有文章`,
+    description: `浏览 AstroVerse 中 ${category} 分类下的所有文章`,
   };
 }
 
-// Header Links, src/components/Header.astro
+// 头部链接，src/components/Header.astro
 export const HeaderLinks = [
-  { href: "/category/One/1/", title: "One" },
-  { href: "/category/Two/1/", title: "Two" },
-  { href: "/category/Three/1/", title: "Three" },
+  { href: "/category/One/1/", title: "江浙沪" },
+  { href: "/category/Two/1/", title: "大湾区" },
+  { href: "/category/Three/1/", title: "海外" },
 ];
 
-// Footer Links, src/components/Footer.astro
+// 底部链接，src/components/Footer.astro
 export const FooterLinks = [
-  { href: "/posts/why-astro/", title: "Astro" },
+  { href: "/tags/", title: "标签" },
+  { href: "/posts/why-astro/", title: "关于" },
   { href: "/posts/tailwind-typography/", title: "Tailwind" },
-  { href: "/tags/", title: "Tags" },
 ];
 
-// Social Links, src/components/Footer.astro
+// 社交链接，src/components/Footer.astro
 export const SocialLinks = [
   { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
   {
@@ -56,6 +56,6 @@ export const SocialLinks = [
   },
 ];
 
-// Search Page Metadata, src/pages/search.astro
-export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Site Search`;
-export const SEARCH_PAGE_DESCRIPTION = `Search all content on ${SITE_TITLE}`;
+// 搜索页面元数据，src/pages/search.astro
+export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - 站点搜索`;
+export const SEARCH_PAGE_DESCRIPTION = `搜索 ${SITE_TITLE} 上的所有内容`;
