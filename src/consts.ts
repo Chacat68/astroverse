@@ -38,7 +38,6 @@ export const HeaderLinks = [
 export const FooterLinks = [
   { href: "/tags/", title: "标签" },
   { href: "/posts/why-astro/", title: "关于" },
-  { href: "/posts/tailwind-typography/", title: "Tailwind" },
 ];
 
 // 社交链接，src/components/Footer.astro
