@@ -9,7 +9,7 @@ tags:
   - 札幌
   - 佛教建筑
 pubDate: 2023-08-09
-cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/blog-7.png?imageSlim
+cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/arch-25.png?imageSlim
 coverAlt: AstroVerse-Aliases
 author: VV
 ---

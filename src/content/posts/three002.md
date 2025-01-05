@@ -9,7 +9,7 @@ tags:
   - 台湾
   - 教堂
 pubDate: 2023-08-19
-cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/blog-6.png?imageSlim
+cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/arch-26.png?imageSlim
 coverAlt: AstroVerse-Aliases
 author: VV
 ---
