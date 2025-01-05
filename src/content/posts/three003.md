@@ -9,7 +9,7 @@ tags:
   - 京都
   - 神社
 pubDate: 2023-08-29
-cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/20250103160113386.png?imageSlim
+cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/blog-5.png?imageSlim
 coverAlt: AstroVerse-Aliases
 author: VV
 ---

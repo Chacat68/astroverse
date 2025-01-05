@@ -10,7 +10,7 @@ tags:
   - 京都
   - 佛教建筑
 pubDate: 2023-09-24
-cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/20250103160641938.png?imageSlim
+cover: https://blog-1259751088.cos.ap-shanghai.myqcloud.com/blog-1.png?imageSlim
 coverAlt: AstroVerse-Aliases
 author: VV
 ---
